@@ -1,0 +1,95 @@
+/* ----------------------------------------------------------------------------
+    Variables
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+   Functions
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Mixins
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Media queries
+/* ------------------------------------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------------------------------------------------------------------------- 
+    Base
+/* ------------------------------------------------------------------------- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------------------- 
+    Typography
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Header
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Footer
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Navigation
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Buttons
+/* ------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- 
+    Index.html page specific
+/* ------------------------------------------------------------------------- */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zYXNzL2Fic3RyYWN0cy9fdmFyaWFibGVzLnNjc3MiLCIuLi8uLi9zcmMvc2Fzcy9hYnN0cmFjdHMvX2Z1bmN0aW9ucy5zY3NzIiwiLi4vLi4vc3JjL3Nhc3MvYWJzdHJhY3RzL19taXhpbnMuc2NzcyIsIi4uLy4uL3NyYy9zYXNzL3ZlbmRvci9fcmVzZXQuc2NzcyIsIm1haW4uY3NzIiwiLi4vLi4vc3JjL3Nhc3MvYmFzZS9fYmFzZS5zY3NzIiwiLi4vLi4vc3JjL3Nhc3MvYmFzZS9fdHlwb2dyYXBoeS5zY3NzIiwiLi4vLi4vc3JjL3Nhc3MvbGF5b3V0L19oZWFkZXIuc2NzcyIsIi4uLy4uL3NyYy9zYXNzL2xheW91dC9fZm9vdGVyLnNjc3MiLCIuLi8uLi9zcmMvc2Fzcy9sYXlvdXQvX25hdmlnYXRpb24uc2NzcyIsIi4uLy4uL3NyYy9zYXNzL2NvbXBvbmVudHMvX2J1dHRvbi5zY3NzIiwiLi4vLi4vc3JjL3Nhc3MvcGFnZXMvX2luZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7OzhFQUFBO0FDQUE7OzhFQUFBO0FDQUE7OzhFQUFBO0FBS0E7OzhFQUFBO0FDTEE7OztDQUFBO0FBS0E7Ozs7Ozs7Ozs7Ozs7RUFhQyxTQUFBO0VBQ0EsVUFBQTtFQUNBLFNBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtFQUNBLHdCQUFBO0FDWUQ7O0FEVkEsZ0RBQUE7QUFDQTs7RUFFQyxjQUFBO0FDYUQ7O0FEWEE7RUFDQyxjQUFBO0FDY0Q7O0FEWkE7RUFDQyxnQkFBQTtBQ2VEOztBRGJBO0VBQ0MsWUFBQTtBQ2dCRDs7QURkQTs7RUFFQyxXQUFBO0VBQ0EsYUFBQTtBQ2lCRDs7QURmQTtFQUNDLHlCQUFBO0VBQ0EsaUJBQUE7QUNrQkQ7O0FDaEVBOzs4RUFBQTtBQUlBO0VBQ0ksU0FBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBRGtFSjs7QUV6RUE7OzhFQUFBO0FDQUE7OzhFQUFBO0FDQUE7OzhFQUFBO0FDQUE7OzhFQUFBO0FDQUE7OzhFQUFBO0FDQUE7OzhFQUFBIiwiZmlsZSI6Im1haW4uY3NzIn0= */
