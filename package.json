@@ -4,9 +4,11 @@
   "description": "Boilerplate for html templates",
   "main": "index.js",
   "scripts": {
+    "minify-html": "html-minifier --collapse-whitespace --minify-css --minify-js --remove-comments --file-ext html --input-dir src/ --output-dir public/",
     "scss": "sass src/sass/main.scss public/css/main.css",
     "autoprefixer": "postcss -u autoprefixer -r public/css/main.css",
     "build:css": "run-s scss autoprefixer",
+    "build:html": "run-s minify-html",
     "build": "run-s build:*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "html-minifier": "^4.0.0",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
     "sass": "^1.49.7"
