@@ -14,10 +14,12 @@ ul{
     list-style: disc;
     margin: 0 0 2rem 0;
     padding-left: 1rem;
+    list-style-position: inside;
 }
 
 ol{
     list-style: decimal;
     margin: 0 0 2rem 0;
     padding-left: 1.25rem;
+    list-style-position: inside;
 }

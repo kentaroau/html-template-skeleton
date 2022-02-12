@@ -10,6 +10,9 @@
     "build:css": "run-s scss autoprefixer",
     "build:html": "run-s minify-html",
     "build": "run-s build:*",
+    "serve:html": "onchange \"src/**/*.html\" -- run-s build:html",
+    "serve:css": "onchange \"src/scss\" -- run-s build:css",
+    "serve": "run-p serve:*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,6 +23,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "html-minifier": "^4.0.0",
+    "onchange": "^7.1.0",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
     "sass": "^1.49.7"
