@@ -4,7 +4,7 @@ A modern HTML boilerplate
 
 * [Getting started](#getting-started)
 
-## Geting started
+## Getting started
 
 * First, ensure that **node.js** & **npm** are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
 * Open up the command line and go to this project's root director directory (eg where **package.json** is located)
