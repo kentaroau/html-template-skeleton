@@ -2,7 +2,14 @@
 
 console.log('Starting install of HTML-template-skeleton')
 const {execSync} = require('child_process');
-const gitClone = 'git clone https://github.com/kentaroau/html-boilerplate.git';
+const folderName = process.argv[2];
+if (!folderName)
+{
+    console.error(`Failed to install HTML-template-skeleton`);
+    process.exit(-1);
+}
+
+const gitClone = `git clone https://github.com/kentaroau/html-boilerplate.git ${folderName}`;
 
 const runCommand = command => {
 
