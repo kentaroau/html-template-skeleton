@@ -1,6 +1,6 @@
-# HTML boilerplate
+# HTML template skeleton
 
-A modern HTML boilerplate
+A modern skeleton for HTML template designs
 
 * [Getting started](#getting-started)
 * [Making changes](#making-changes)
