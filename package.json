@@ -12,21 +12,27 @@
     "minify-html": "html-minifier --collapse-whitespace --minify-css --minify-js --remove-comments --file-ext html --input-dir src/ --output-dir public/",
     "scss": "sass src/sass/main.scss public/css/main.css",
     "autoprefixer": "postcss -u autoprefixer -r public/css/main.css",
+    "sync": "browser-sync start --server --files \"public/css/*.css, public/js/*.js, public/**/*.html, !node_modules/**/*.html\" --serveStatic \"public\" --no-notify",
     "build:css": "run-s scss autoprefixer",
     "build:html": "run-s minify-html",
+    "build:fonts": "copyfiles -f src/fonts/*.ttf public/fonts/",
     "build": "run-s build:*",
     "serve:html": "onchange \"src/**/*.html\" -- run-s build:html",
-    "serve:css": "onchange \"src/scss\" -- run-s build:css",
-    "serve": "run-p serve:*",
+    "serve:css": "onchange \"src/**/*.scss\" -- run-s build:css",
+    "serve:fonts": "onchange \"src/fonts\" -- run-s build:fonts",
+    "serve": "run-p serve:* sync",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "html template skeleton", "html boilerplate", "html template"
+    "html template skeleton",
+    "html boilerplate",
+    "html template"
   ],
   "author": "kentaroau",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "copyfiles": "^2.4.1",
     "html-minifier": "^4.0.0",
     "onchange": "^7.1.0",
     "postcss": "^8.4.6",

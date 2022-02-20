@@ -20,7 +20,11 @@
 
 // 5. Components
 @use 'components/button';
+@use 'components/tables';
+@use 'components/forms';
 
 // 6. Page-specific styles
 @use 'pages/index';
 
+// 7. Theme styles
+@use 'themes/default';

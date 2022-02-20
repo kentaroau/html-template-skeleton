@@ -5,7 +5,7 @@ A modern skeleton for starting HTML template designs.
 
 * [Features](#features)
 * [Installation](#installation)
-* [Getting started](#quick-start)
+* [Quick start](#quick-start)
 * [Making changes](#making-changes)
 
 ## Features
@@ -23,8 +23,9 @@ There are 3 options to install and build on top of this package. First, ensure t
 This is my prefered option when starting new HTML projects:
 
 ```
-npx html-template-skeleton new-site
+mkdir new-site
 cd new-site
+npx html-template-skeleton .
 ```
 
 ### Option 2 - use npm
@@ -59,11 +60,14 @@ npm install
 npm run build
 ```
 
-3. Preview the page by opening up the index.html in **/public** folder
+3. Preview the page by opening up the index.html in `/public` folder
 
 ## Making changes
 
-This project uses npm as the build tool. To make changes, you have to do it in the **/src** folder and deploy code generated in **/public** folder.
+This project uses npm as the build tool. To make changes:
+
+* Make code changes in the `/src` folder and 
+* deploy code generated in `/public` folder
 
 For development purposes, run the following command:
 
