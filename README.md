@@ -1,4 +1,4 @@
-# HTML template skeleton
+# 🦴 HTML template skeleton
 
 A modern skeleton for HTML template designs
 
