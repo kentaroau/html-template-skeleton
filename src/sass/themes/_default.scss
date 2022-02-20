@@ -14,4 +14,15 @@ body{
     height:20vh;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    color: white;
+    background-color: #222;
+    width: 100%;
 }
