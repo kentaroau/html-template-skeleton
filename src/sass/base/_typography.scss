@@ -3,6 +3,13 @@
 /* ------------------------------------------------------------------------- */
 @use "../abstracts/variables" as variables;
 
+
+@font-face {
+    font-family: "Inter";
+    src: url('../../fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  }
+
+
 html {
     font-size: 16pt;
     font-family: variables.$font-family-base;
