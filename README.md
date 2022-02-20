@@ -1,6 +1,8 @@
 # 🦴 HTML template skeleton
+[![npm version](https://img.shields.io/npm/v/html-template-skeleton?style=plastic)](https://www.npmjs.com/package/html-template-skeleton)
 
 A modern skeleton for HTML template designs
+
 
 * [Getting started](#getting-started)
 * [Making changes](#making-changes)
