@@ -1,8 +1,9 @@
 {
-  "name": "html-template-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for html templates",
+  "name": "html-template-skeleton",
+  "version": "0.0.3",
+  "description": "Skeleton code for html templates",
   "main": "index.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "minify-html": "html-minifier --collapse-whitespace --minify-css --minify-js --remove-comments --file-ext html --input-dir src/ --output-dir public/",
     "scss": "sass src/sass/main.scss public/css/main.css",
@@ -16,10 +17,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "html"
+    "html template skeleton", "html boilerplate", "html template"
   ],
-  "author": "Ken",
-  "license": "ISC",
+  "author": "kentaroau",
+  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "html-minifier": "^4.0.0",
