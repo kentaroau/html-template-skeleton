@@ -18,7 +18,7 @@ A modern skeleton for starting HTML template designs.
 
 There are 3 options to install and build on top of this package. First, ensure that **node.js** & **npm** are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
 
-### Option 1 - use npx
+### Option 1 - use npx (prefered)
 
 This is my prefered option when starting new HTML projects:
 
@@ -26,6 +26,8 @@ This is my prefered option when starting new HTML projects:
 mkdir new-site
 cd new-site
 npx html-template-skeleton .
+npm install
+npm run serve
 ```
 
 ### Option 2 - use npm
